@@ -1,4 +1,8 @@
 package com.zalocoders.kotling_ktor.base
 
-class KtorApp {
-}
+import android.app.Application
+import dagger.hilt.android.HiltAndroidApp
+
+
+@HiltAndroidApp
+class KtorApp: Application()
